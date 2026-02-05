@@ -1,8 +1,8 @@
-## Alooo, I'm Adil BTW...
+## Alooo...
 
 🧠 AI Engineer
 💻 Computer Science Engineer
-💪🏻 Hobby - Workout and
+💪🏻 Hobby - Fitness and
 🎸 Music too
 
 
