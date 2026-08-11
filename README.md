@@ -87,8 +87,6 @@
 
 </div>
 
-<div align="center"><sub>HackerRank has no reliable embeddable stats widget, so it's linked as a badge rather than faked with a card — click through for the real profile.</sub></div>
-
 <img src="assets/divider.svg" width="100%"/>
 
 ## Contribution Snake
