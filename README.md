@@ -95,6 +95,6 @@
 <img src="https://raw.githubusercontent.com/4M5/4M5/output/snake-dark.svg" width="100%"/>
 </div>
 
-<div align="center"><sub>Powered by the workflow in <code>.github/workflows/snake.yml</code> — runs daily, no manual upkeep.</sub></div>
+<!--<div align="center"><sub>Powered by the workflow in <code>.github/workflows/snake.yml</code> — runs daily, no manual upkeep.</sub></div>-->
 
 <img src="assets/footer.svg" width="100%"/>
