@@ -86,8 +86,8 @@
   </rect>
 
   <!-- centered content -->
-  <text x="600" y="175" text-anchor="middle" class="mono" font-size="13" letter-spacing="4" fill="#8A8D98">AI ENGINEER · SYSTEM ONLINE</text>
+  <text x="600" y="175" text-anchor="middle" class="mono" font-size="13" letter-spacing="4" fill="#8A8D98">Hi All · SYSTEM ONLINE</text>
   <text x="600" y="240" text-anchor="middle" class="display" font-size="64" font-weight="700" fill="#F2F3F5">ADIL</text>
-  <text x="600" y="272" text-anchor="middle" class="body" font-size="17" letter-spacing="2" fill="url(#textGrad)">ARTIFICIAL INTELLIGENCE ENGINEER</text>
+  <!--<text x="600" y="272" text-anchor="middle" class="body" font-size="17" letter-spacing="2" fill="url(#textGrad)">ARTIFICIAL INTELLIGENCE ENGINEER</text>-->
   <text x="600" y="320" text-anchor="middle" class="body" font-size="15" fill="#8A8D98">Building intelligent software that solves real-world problems.</text>
 </svg>
