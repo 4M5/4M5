@@ -45,19 +45,6 @@
 <a href="https://github.com/4M5/Virtual-Mouse-Gesture"><img src="https://img.shields.io/badge/View_Repository-6C8EFF?style=for-the-badge&logo=github&logoColor=white" /></a>
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<h3>RAT-SQL — Text-to-SQL</h3>
-<p>Relation-aware transformer that converts plain English into executable SQL. Benchmarked on Spider: 73% exact match, 63% execution accuracy.</p>
-<p><code>Transformers</code> <code>NLP</code> <code>Spider Benchmark</code></p>
-<a href="https://github.com/4M5"><img src="https://img.shields.io/badge/Repository_link_pending-1C1E26?style=for-the-badge&logo=github&logoColor=8A8D98" /></a>
-</td>
-<td width="50%" valign="top">
-<h3>Predictive Maintenance</h3>
-<p><em>Description pending — send repo link, stack, and any benchmark numbers and this card gets rewritten with the real specifics instead of a placeholder.</em></p>
-<p><code>details needed</code></p>
-<a href="https://github.com/4M5"><img src="https://img.shields.io/badge/Repository_link_pending-1C1E26?style=for-the-badge&logo=github&logoColor=8A8D98" /></a>
-</td>
 </tr>
 </table>
 
