@@ -1,12 +1,97 @@
-Alooo...
-🧠 AI Engineer
-💻 Computer Science Engineer
-💪🏻 Hobby - Fitness and
-🎸 Music too
+<div align="center">
+<img src="assets/hero.svg" width="100%" alt="Adil — Artificial Intelligence Engineer"/>
+</div>
 
-🌐 Socials:
-![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white) ![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white) ![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)
-💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+<img src="assets/divider.svg" width="100%"/>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Mission Control
+
+<div align="center">
+<img src="assets/dashboard.svg" width="100%" alt="Status dashboard"/>
+</div>
+
+<img src="assets/divider.svg" width="100%"/>
+
+## Discipline Map
+
+<div align="center">
+<img src="assets/mindmap.svg" width="100%" alt="Interactive discipline mind map"/>
+</div>
+
+<img src="assets/divider.svg" width="100%"/>
+
+## How the Work Actually Happens
+
+<div align="center">
+<img src="assets/pipeline.svg" width="100%" alt="ML lifecycle pipeline"/>
+</div>
+
+<img src="assets/divider.svg" width="100%"/>
+
+## Featured Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>Paper Element Retriever</h3>
+<p>Multimodal retrieval system for research papers — reasons over text, figures, and tables together instead of chunked text alone. Figures and tables are routed through a vision model for grounding before entering the same vector index as text, so a query about a specific table resolves to the table, not nearby prose.</p>
+<p><code>ChromaDB</code> <code>Ollama</code> <code>LLaMA 3.1</code> <code>LLaVA</code></p>
+<a href="https://github.com/4M5/paper-element-retriever"><img src="https://img.shields.io/badge/View_Repository-6C8EFF?style=for-the-badge&logo=github&logoColor=white" /></a>
+</td>
+<td width="50%" valign="top">
+<h3>Gesture Virtual Mouse</h3>
+<p>Cursor control through gesture, voice, or eye tracking — no additional hardware. Real-time landmark tracking runs at 25 FPS.</p>
+<p><code>MediaPipe</code> <code>OpenCV</code> <code>Python</code></p>
+<a href="https://github.com/4M5/Virtual-Mouse-Gesture"><img src="https://img.shields.io/badge/View_Repository-6C8EFF?style=for-the-badge&logo=github&logoColor=white" /></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>RAT-SQL — Text-to-SQL</h3>
+<p>Relation-aware transformer that converts plain English into executable SQL. Benchmarked on Spider: 73% exact match, 63% execution accuracy.</p>
+<p><code>Transformers</code> <code>NLP</code> <code>Spider Benchmark</code></p>
+<a href="https://github.com/4M5"><img src="https://img.shields.io/badge/Repository_link_pending-1C1E26?style=for-the-badge&logo=github&logoColor=8A8D98" /></a>
+</td>
+<td width="50%" valign="top">
+<h3>Predictive Maintenance</h3>
+<p><em>Description pending — send repo link, stack, and any benchmark numbers and this card gets rewritten with the real specifics instead of a placeholder.</em></p>
+<p><code>details needed</code></p>
+<a href="https://github.com/4M5"><img src="https://img.shields.io/badge/Repository_link_pending-1C1E26?style=for-the-badge&logo=github&logoColor=8A8D98" /></a>
+</td>
+</tr>
+</table>
+
+<img src="assets/divider.svg" width="100%"/>
+
+## Developer Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=4M5&show_icons=true&hide_border=true&bg_color=07070A&title_color=6C8EFF&icon_color=A78BFA&text_color=C9CBD3&count_private=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=4M5&hide_border=true&background=07070A&stroke=1C1E26&ring=6C8EFF&fire=A78BFA&currStreakLabel=6C8EFF" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=4M5&layout=compact&hide_border=true&bg_color=07070A&title_color=6C8EFF&text_color=C9CBD3&langs_count=8" height="165"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=4M5&bg_color=07070A&color=A78BFA&line=6C8EFF&point=F2F3F5&hide_border=true" width="100%"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=4M5&no-frame=true&no-bg=true&row=1&column=6&margin-w=8&theme=dracula" width="100%"/>
+
+</div>
+
+> LeetCode card intentionally omitted — add your LeetCode username and I'll wire in `leetcode-stats-card` in the same visual style.
+
+<img src="assets/divider.svg" width="100%"/>
+
+## Contribution Snake
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/4M5/4M5/output/snake-dark.svg" width="100%"/>
+</div>
+
+<div align="center"><sub>Powered by the workflow in <code>.github/workflows/snake.yml</code> — runs daily, no manual upkeep.</sub></div>
+
+<img src="assets/footer.svg" width="100%"/>

@@ -1,0 +1,93 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap');
+      .display { font-family: 'Space Grotesk', Helvetica, Arial, sans-serif; }
+      .body    { font-family: 'Inter', Helvetica, Arial, sans-serif; }
+      .mono    { font-family: 'IBM Plex Mono', 'Courier New', monospace; }
+    </style>
+    <radialGradient id="glow" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#6C8EFF" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#6C8EFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#07070A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C8EFF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C8EFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6C8EFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" fill="#07070A"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+
+  <!-- constellation field -->
+  <g stroke="#2A2D38" stroke-width="1" opacity="0.8">
+    <line x1="120" y1="80" x2="260" y2="140"/>
+    <line x1="260" y1="140" x2="210" y2="250"/>
+    <line x1="980" y1="70" x2="1090" y2="150"/>
+    <line x1="1090" y1="150" x2="1010" y2="260"/>
+    <line x1="150" y1="330" x2="290" y2="360"/>
+    <line x1="960" y1="330" x2="1050" y2="370"/>
+  </g>
+  <g fill="#6C8EFF">
+    <circle cx="120" cy="80" r="2.2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="140" r="2.6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="210" cy="250" r="1.8">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="70" r="2" fill="#A78BFA">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1090" cy="150" r="2.4" fill="#A78BFA">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="4.2s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="260" r="1.8">
+      <animate attributeName="opacity" values="0.2;0.85;0.2" dur="5.4s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="330" r="1.6">
+      <animate attributeName="opacity" values="0.15;0.7;0.15" dur="4.8s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="290" cy="360" r="2" fill="#A78BFA">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.6s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="960" cy="330" r="1.8">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.4s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="370" r="2.2" fill="#A78BFA">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.9s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#F2F3F5" opacity="0.35">
+    <circle r="1.4" cx="400" cy="60">
+      <animate attributeName="cy" values="60;40;60" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.2" cx="800" cy="380">
+      <animate attributeName="cy" values="380;360;380" dur="7s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.6" cx="600" cy="50">
+      <animate attributeName="cy" values="50;30;50" dur="5.5s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- underline flow -->
+  <rect x="360" y="286" width="480" height="1.5" fill="url(#lineGrad)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- centered content -->
+  <text x="600" y="175" text-anchor="middle" class="mono" font-size="13" letter-spacing="4" fill="#8A8D98">AI ENGINEER · SYSTEM ONLINE</text>
+  <text x="600" y="240" text-anchor="middle" class="display" font-size="64" font-weight="700" fill="#F2F3F5">ADIL</text>
+  <text x="600" y="272" text-anchor="middle" class="body" font-size="17" letter-spacing="2" fill="url(#textGrad)">ARTIFICIAL INTELLIGENCE ENGINEER</text>
+  <text x="600" y="320" text-anchor="middle" class="body" font-size="15" fill="#8A8D98">Building intelligent software that solves real-world problems.</text>
+</svg>

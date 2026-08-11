@@ -1,0 +1,67 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=IBM+Plex+Mono:wght@400&amp;display=swap');
+      .display { font-family: 'Space Grotesk', Helvetica, Arial, sans-serif; }
+      .mono    { font-family: 'IBM Plex Mono', 'Courier New', monospace; }
+    </style>
+    <marker id="pArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#6C8EFF"/>
+    </marker>
+    <linearGradient id="flow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C8EFF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="220" fill="#07070A"/>
+  <text x="60" y="42" class="mono" font-size="12" letter-spacing="3" fill="#8A8D98">LIFECYCLE, NOT A SKILL LIST</text>
+
+  <!-- 7 stages -->
+  <g class="display" font-size="13" fill="#F2F3F5" text-anchor="middle">
+    <!-- connecting line -->
+    <line x1="95" y1="130" x2="1105" y2="130" stroke="#1C1E26" stroke-width="1.5"/>
+    <line x1="95" y1="130" x2="1105" y2="130" stroke="url(#flow)" stroke-width="1.5" stroke-dasharray="10 6">
+      <animate attributeName="stroke-dashoffset" values="0;-32" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+
+    <g transform="translate(95,130)">
+      <circle r="26" fill="#0E0F13" stroke="#242733"/>
+      <text dy="5" font-size="11">01</text>
+      <text y="52" class="mono" font-size="11" fill="#8A8D98">Problem</text>
+    </g>
+    <g transform="translate(260,130)">
+      <circle r="26" fill="#0E0F13" stroke="#242733"/>
+      <text dy="5" font-size="11">02</text>
+      <text y="52" class="mono" font-size="11" fill="#8A8D98">Dataset</text>
+    </g>
+    <g transform="translate(425,130)">
+      <circle r="26" fill="#0E0F13" stroke="#242733"/>
+      <text dy="5" font-size="10">03</text>
+      <text y="52" class="mono" font-size="11" fill="#8A8D98">Preprocess</text>
+    </g>
+    <g transform="translate(590,130)">
+      <circle r="26" fill="#0E0F13" stroke="#6C8EFF"/>
+      <circle r="26" fill="none" stroke="#6C8EFF" stroke-opacity="0.5">
+        <animate attributeName="r" values="22;30;22" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <text dy="5" font-size="11">04</text>
+      <text y="52" class="mono" font-size="11" fill="#8A8D98">Training</text>
+    </g>
+    <g transform="translate(755,130)">
+      <circle r="26" fill="#0E0F13" stroke="#242733"/>
+      <text dy="5" font-size="10">05</text>
+      <text y="52" class="mono" font-size="11" fill="#8A8D98">Evaluation</text>
+    </g>
+    <g transform="translate(920,130)">
+      <circle r="26" fill="#0E0F13" stroke="#242733"/>
+      <text dy="5" font-size="10">06</text>
+      <text y="52" class="mono" font-size="11" fill="#8A8D98">Deployment</text>
+    </g>
+    <g transform="translate(1105,130)">
+      <circle r="26" fill="#0E0F13" stroke="#A78BFA"/>
+      <text dy="5" font-size="11">07</text>
+      <text y="52" class="mono" font-size="11" fill="#8A8D98">Impact</text>
+    </g>
+  </g>
+</svg>
