@@ -80,9 +80,14 @@
 
 <img src="https://github-profile-trophy.vercel.app/?username=4M5&no-frame=true&no-bg=true&row=1&column=6&margin-w=8&theme=dracula" width="100%"/>
 
+<br/>
+
+<a href="https://leetcode.com/R3plica"><img src="https://leetcard.jacoblin.cool/R3plica?theme=dark&font=IBM%20Plex%20Mono&ext=heatmap" height="180"/></a>
+<a href="https://www.hackerrank.com/profile/adil_kaviyil"><img src="https://img.shields.io/badge/HackerRank-adil__kaviyil-6C8EFF?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=0E0F13" /></a>
+
 </div>
 
-> LeetCode card intentionally omitted — add your LeetCode username and I'll wire in `leetcode-stats-card` in the same visual style.
+<div align="center"><sub>HackerRank has no reliable embeddable stats widget, so it's linked as a badge rather than faked with a card — click through for the real profile.</sub></div>
 
 <img src="assets/divider.svg" width="100%"/>
 
