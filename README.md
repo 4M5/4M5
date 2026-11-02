@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:101827,45:182848,100:00C9D7&text=Adil%20Mohammed%20Shajahan&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=AI%20Engineer%20%7C%20Idea%20to%20Impact&descAlignY=58&descSize=18" width="100%" alt="Adil Mohammed Shajahan — AI Engineer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:101827,45:182848,100:00C9D7&text=Adil&fontSize=48&fontColor=FFFFFF&fontAlignY=42&desc=Idea%20to%20Impact&descAlignY=62&descSize=18" width="100%" alt="Adil — Idea to Impact"/>
 
 <a href="mailto:adil.kaviyil@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://www.linkedin.com/in/adil-m-s/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -17,13 +17,8 @@
 ```python
 class AIEngineer:
     def __init__(self):
-        self.name = "Adil Mohammed Shajahan"
+        self.name = "Adil"
         self.role = "AI/ML Engineer"
-        self.education = {
-            "M.Tech": "Artificial Intelligence — TKM College of Engineering",
-            "B.Tech": "Computer Science and Engineering"
-        }
-        self.experience = "Software Engineer Intern @ Nest Digital"
         self.specialities = [
             "Machine Learning & Deep Learning",
             "Computer Vision",
@@ -105,13 +100,6 @@ I’m an **Artificial Intelligence graduate** interested in engineering practica
     </td>
   </tr>
 </table>
-
-### 💼 Experience Highlight
-**Software Engineer Intern — Nest Digital** · *Oct 2025 – Jun 2026*
-
-- Developed an HRNet-based cephalometric landmark detection system with a coarse-to-fine refinement pipeline on the ISBI dataset.
-- Improved challenging landmark SDR@2mm results: Orbitale **18% → 43%** and Point A **26% → 61%**.
-- Built an Agentic AI smart-home automation system integrating Gemini, weather data, ESP32 hardware, and MQTT.
 
 ---
 
